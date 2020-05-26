@@ -48,7 +48,6 @@ public class CodeGenerator {
         dsc.setDbType(DbType.MYSQL);
         mpg.setDataSource(dsc);
 
-
         // 包配置
         PackageConfig pc = new PackageConfig();
         pc.setModuleName(moduleName);
@@ -89,6 +88,5 @@ public class CodeGenerator {
 
         // 2、执行代码生成器
         mpg.execute();
-
     }
 }
