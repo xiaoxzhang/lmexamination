@@ -39,7 +39,6 @@ public class CodeGenerator {
         gc.setSwagger2(true); // 自动开启Swagger配置！
         mpg.setGlobalConfig(gc);
 
-
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
         dsc.setUrl("jdbc:mysql://localhost:3306/lm_onlineexamination?characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai");
